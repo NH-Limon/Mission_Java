@@ -64,8 +64,13 @@ public class Methods {
     //     System.out.println(p - q);
     // }
 
-
-
+    // Let's see another example of method overloading
+    static int mymeth(int p){
+        return p;
+    }
+    static String mymeth(String p){
+        return p;
+    }
 
 
     public static void main(String[] args) {
@@ -91,5 +96,8 @@ public class Methods {
         // mymethod("Nahid Hasan Limon", 200);
         // mymethod(100, 200);
         // mymethod(3.5, 1.3);
+
+        // System.out.println(mymeth("This is a string"));
+        // System.out.println(200);
     }
 }
