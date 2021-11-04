@@ -1,3 +1,8 @@
+package ProcedureJava;
+// import OOP.Constructor;
+// import OOP.Modifiers;
+
+
 // File No: 1
 public class Main{
     // public static void main(String[] args) {
@@ -347,5 +352,32 @@ public class Main{
         //         System.out.println(aa[a][b]);
         //     }
         // }
+
+
+
+        // Practicing Access Modifiers
+        // ----------------------------
+
+        // Constructor obj = new Constructor(); // Because of being a public class, the Constructor class is accessible here. :) Also, the attributes/ methods should be public to access from here.
+        // System.out.println(obj.gpa);
+        // System.out.println(obj.roll);
+        // ---
+        // Modifiers mod = new Modifiers(); // Because of being a default class, the Modifiers class is not accessible here. :)
+
+
+        // System.out.println(myint); // Not accessible. Because myint is an attribute of a class, so if we want to use it, we need to use that class's object. If that class is public then we can access otherwise not.
+
+        
+        // Constructor cot = new Constructor();
+        // System.out.println(cot.nm);
+        // System.out.println(cot.roll);
+        // System.out.println(cot.gpa);
+        // System.out.println(cot.p); // p attribute is not accessible from here, because on the Constructor class, we set p as a default attribute, and default attributes can get accessed only from the main class where it is created and the other classes of the same package. :)
+
+        // Trying to access private methods/ attributes
+        // System.out.println(cot.nm); // accessible because nm is a public attr.
+        // System.out.println(cot.p); // reason was given up.
+        // System.out.println(cot.email); // email is a private attr.
+        // cot.my(); // my() is a private method
     }
 }
